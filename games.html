@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Pragmatic Play试玩</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="assets/css/games.css">
+</head>
+<body style="background-image: url('images/pgb.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<div class="top-nav">
+    <div class="nav-inner">
+        <img class="logo" src="images/logo.png" alt="Logo">
+        <!--<div class="tg-box">
+            <span class="tg-link"><img src="bp.png" alt="Games" style="width:100px;height:40px;"></span>
+        </div>-->
+    </div>
+</div>
+<div class="container">
+    <div class="main-content">
+        <div class="loading-container" id="loading">
+            <div class="spinner"></div>
+            <p>正在加载中，请稍后...</p>
+        </div>
+        <iframe id="game-frame" allowfullscreen style="display:none;"></iframe>
+    </div>
+    <div class="pg-toolbar">
+        <div class="pg-btn" id="fullscreenBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><g clip-path="url(#pg_fullscreen_clip)"><path fill="#fff" fill-opacity="0.01" d="M24 0H0v24h24z"></path><path fill="#6A7C91" fill-rule="evenodd" d="M2.29 2.297a1 1 0 0 1 1.414-.008l5 4.95A1 1 0 0 1 7.296 8.66l-5-4.95a1 1 0 0 1-.007-1.413M8.71 15.297a1 1 0 0 1-.006 1.414l-5 4.95a1 1 0 1 1-1.408-1.422l5-4.95a1 1 0 0 1 1.415.008M15.342 15.293a1 1 0 0 1 1.414 0l4.95 4.95a1 1 0 0 1-1.415 1.414l-4.95-4.95a1 1 0 0 1 0-1.414M21.657 2.293a1 1 0 0 1 0 1.414l-4.95 4.95a1 1 0 1 1-1.414-1.414l4.95-4.95a1 1 0 0 1 1.414 0"></path><path fill="#6A7C91" fill-rule="evenodd" d="M15.5 3a1 1 0 0 1 1-1H21a1 1 0 0 1 1 1v4.5a1 1 0 1 1-2 0V4h-3.5a1 1 0 0 1-1-1M21 15.5a1 1 0 0 1 1 1V21a1 1 0 0 1-1 1h-4.5a1 1 0 1 1 0-2H20v-3.5a1 1 0 0 1 1-1M3 15.5a1 1 0 0 1 1 1V20h3.5a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1v-4.5a1 1 0 0 1 1-1M2 3a1 1 0 0 1 1-1h4.5a1 1 0 0 1 0 2H4v3.5a1 1 0 1 1-2 0z"></path></g><defs><clipPath id="pg_fullscreen_clip"><path fill="#fff" d="M0 0h24v24H0z"></path></clipPath></defs></svg>
+            <span>全屏幕</span>
+        </div>
+    </div>
+</div>
+    <script src="assets/js/games.js"></script>
+</body>
+</html>
